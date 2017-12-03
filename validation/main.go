@@ -74,12 +74,14 @@ func StringMaxRune(max int) StringValidationRule {
 func StringMinRune(min int) StringValidationRule {
 	return func(value *string, hasError bool) error {
 		if utf8.RuneCountInString(*value) < min {
-			return ValidationError(fmt.Sprintf("Value shoud be more than '%d'", min))
+			return ValidationError(fmt.Sprintf("Value should be more than '%d'", min))
 		}
 
 		return nil
 	}
 }
+
+// Step: 4 Now lets run the validator.
 
 func main() {
 	rules := []StringValidationRule{
