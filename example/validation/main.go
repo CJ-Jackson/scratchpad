@@ -75,7 +75,7 @@ const FormHtml = `<!doctype html>
 
 		<div class="form-group">
 			<label for="age">Age:</label>
-			<input id="age" type="email"
+			<input id="age" type="number" step="1"
 				class="form-control {{ if .Checked }}{{ if not .AgeErr }}is-valid{{ else }}is-invalid{{ end }}{{ end }}" name="age" value="{{ .Age }}">
 			{{ if .Checked }}{{ if .AgeErr }}<div class="invalid-feedback">{{ .AgeErr }}</div>{{ end }}{{ end }}
 		</div>
