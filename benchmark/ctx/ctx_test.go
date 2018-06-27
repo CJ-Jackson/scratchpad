@@ -3,8 +3,6 @@ package ctx
 import (
 	"testing"
 
-	"fmt"
-
 	"github.com/cjtoolkit/ctx"
 )
 
@@ -37,11 +35,6 @@ func getComplexType(context ctx.BackgroundContext) Complex {
 }
 
 func BenchmarkCtx(b *testing.B) {
-	fmt.Printf("%#v", complex{
-		Str:    "Hello World",
-		Number: 5,
-	})
-
 	context := ctx.NewBackgroundContext()
 	getComplexType(context)
 
