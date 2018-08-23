@@ -1,0 +1,4 @@
+github.com/cjtoolkit/validate v1.0.2/go.mod h1:3HhbKkv7YabSiqUF20ScUZGyUp5CZlbt1xwBxddtdVI=
+github.com/gorilla/schema v1.0.2/go.mod h1:kgLaKoK1FELgZqMAVxx/5cbj0kT+57qxUrAlIO2eleU=
+github.com/julienschmidt/httprouter v0.0.0-20180411154501-adbc77eec0d9/go.mod h1:SYymIcj16QtmaHHD7aYtjjsJG7VTCxuUUipMqKk8s4w=
+github.com/thedevsaddam/govalidator v1.9.1/go.mod h1:Ilx8u7cg5g3LXbSS943cx5kczyNuUn7LH/cK5MYuE90=
