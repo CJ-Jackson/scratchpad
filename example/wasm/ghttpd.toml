@@ -1,7 +1,3 @@
-[http]
-address = ":8000"
-cacheTime = 3600
-
 [[mime]]
 extension = ".wasm"
 type = "application/wasm"
